@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Page"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/goToCollaborativeFilteringPageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="collaborative filtering recommendation" />
+
+        <Button
+            android:id="@+id/ContentBasedCarRecommendationbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Based Car Recommendation" />
+
+        <Button
+            android:id="@+id/updateUserInformationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update user information" />
+
+        <Button
+            android:id="@+id/swipecarsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe cars" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT" />
+
+        <Button
+            android:id="@+id/deleteUserButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete User" />
+
+    </LinearLayout>
+</ScrollView>

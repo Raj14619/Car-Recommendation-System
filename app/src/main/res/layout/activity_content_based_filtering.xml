@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fyp.CollaborativeFiltering">
+
+    <Button
+        android:id="@+id/RecommendationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Recommendation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/carManufacturerTextView"
+        android:layout_width="257dp"
+        android:layout_height="27dp"
+        android:text="Car Manufacturer:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecommendationButton" />
+
+    <TextView
+        android:id="@+id/carModelTextView"
+        android:layout_width="259dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="32dp"
+        android:text="Car Model:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carManufacturerTextView" />
+
+    <TextView
+        android:id="@+id/CarTrimTextView"
+        android:layout_width="262dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="Car Trim:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carModelTextView" />
+
+    <TextView
+        android:id="@+id/carYearWasMadeTextView"
+        android:layout_width="268dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Car Year Was Made:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CarTrimTextView" />
+
+    <TextView
+        android:id="@+id/carYearToBuyTextView"
+        android:layout_width="268dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="28dp"
+        android:text="Car Year To Buy:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carYearWasMadeTextView" />
+
+    <TextView
+        android:id="@+id/carPriceTextView"
+        android:layout_width="266dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:text="Car Price:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carYearToBuyTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
